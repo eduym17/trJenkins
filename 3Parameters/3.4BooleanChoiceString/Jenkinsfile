@@ -9,9 +9,9 @@ pipeline {
   stages {
     stage("Deployment") {
       steps {
-        echo "Deployment name is: ${deploymentName} \n"
-        echo "AWS AZ is: ${awsAz} \n"
-        echo "Confirm deployment? ${confirmDeploy} \n"
+        echo "Deployment name is: ${params.deploymentName} \n"
+        echo "AWS AZ is: ${params.awsAz} \n"
+        echo "Confirm deployment? ${params.confirmDeploy} \n"
       }
     }
   }
