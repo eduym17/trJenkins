@@ -1,0 +1,16 @@
+pipeline {
+  agent any
+
+  stages {
+    stage("functions") {
+      steps {
+        myFunction("Hello World!", 17)
+      }
+    }
+  }
+}
+
+def myFunction(String myText, int myNumber) {
+  echo "myText: ${myText} \n"
+  echo "myNumber: ${myNumber}"
+}
