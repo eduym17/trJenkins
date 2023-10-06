@@ -9,6 +9,7 @@ pipeline {
       steps {
         script {
           if(params.myBoolean == false) {
+            echo "Boolean param is set to: ${params.myBoolean}"
             currentBuild.result = "UNSTABLE"
             return
           } else {
