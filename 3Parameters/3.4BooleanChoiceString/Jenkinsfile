@@ -1,0 +1,18 @@
+pipeline {
+  agent any
+  parameters {
+    string(defaultValue: "", description: "Deployment name", name: "deploymentName")
+    choice(choices: ["EU-WEST-2A", "EU-WEST-2B", "EU-WEST-2C"], description: "AWS Availability Zone", name: "awsAz")
+    booleanParam(defaultValue: false, description: "Confirm deployment?", name: "confirmDeploy")
+  }
+
+  stages {
+    stage("Deployment") {
+      steps {
+        echo "Deployment name is: ${deploymentName} \n"
+        echo "AWS AZ is: ${awsAz} \n"
+        echo "Confirm deployment? ${confirmDeploy} \n"
+      }
+    }
+  }
+}
