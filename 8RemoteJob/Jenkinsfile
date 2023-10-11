@@ -1,0 +1,37 @@
+pipeline {
+  agent any
+  tools {
+    maven 'Maven 3.9.5'
+  }
+  stages {
+    stage("Clean Up") {
+      steps {
+        deleteDir()
+      }
+    }
+    stage("Clone Repo") {
+      steps {
+        sh "git clone https://github.com/jenkins-docs/simple-java-maven-app.git"
+      }
+    }
+    stage("Build") {
+      steps {
+        dir("simple-java-maven-app") {
+          sh "mvn clean install"
+        }
+      }
+    }
+    stage("Test") {
+      steps {
+        dir("simple-java-maven-app") {
+          sh "mvn test"
+        }
+      }
+    }
+    stage("Build Remote") {
+      steps {
+        build job: 'JenkinsTraining/03Parameters/boolean', parameters: [[$class: 'BooleanParameterValue', name: 'myBoolean', value: true]]
+      }
+    }
+  }
+}
