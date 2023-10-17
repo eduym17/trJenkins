@@ -1,0 +1,16 @@
+pipeline {
+  agent any
+
+  stages {
+    stage("Custom Name") {
+      steps {
+        myFunction("This is a Jenkinsfile with Customized Name", 17)
+      }
+    }
+  }
+}
+
+def myFunction(String myText, int myNumber) {
+  echo "myText: ${myText} \n"
+  echo "myNumber: ${myNumber} \n"
+}
