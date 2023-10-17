@@ -1,14 +1,13 @@
 pipeline {
   agent any
   options { timestamps () }
-  
+
   stages {
     stage("Cron Job") {
       steps {
         echo "This should execute the first day of each month. \n"
         echo "At 12:00 AM, on day 1 of the month. \n"
         echo "0 0 1 * *\n"
-        echo "TimeStamp: ${currentBuild.startTimeInMillis}"
       }
     }
   }
