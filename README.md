@@ -62,12 +62,10 @@ Maven
 **Eduardo Yañez** 
 
 [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />][github-eduym17]
-[<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />][twitter-eduym17]
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin-eduym17]
 [<img src="https://img.shields.io/badge/Mail-00C300?style=for-the-badge&logo=gmail&logoColor=white" />][mail-eduym17]
 
 [github-eduym17]: https://github.com/eduym17
-[twitter-eduym17]: https://twitter.com/Edu_YM
 [linkedin-eduym17]: https://www.linkedin.com/in/eduym17/
 [mail-eduym17]: mailto:eduardo_yanez@live.com.mx
 
