@@ -14,15 +14,15 @@ This repository aims to be a beginners guide for the use of Jenkins, starting fr
 Find examples for setting Jenkinsfiles for different automation scenarios below.<br/>
 
 ## 10 Steps Roadmap
-- [x] [01. Your first Pipeline: Hello World](https://github.com/eduym17/trJenkins/tree/main/1HelloWorld)
-- [x] [02. Create a MultiStage Pipeline](https://github.com/eduym17/trJenkins/tree/main/2MultiStage)
-- [x] [03. Learn to use Parameters](https://github.com/eduym17/trJenkins/tree/main/3Parameters)
-- [x] [04. And then learn to use Variables](https://github.com/eduym17/trJenkins/tree/main/4Variables)
-- [x] [05. Fun Functions in Jenkins](https://github.com/eduym17/trJenkins/tree/main/5Functions)
-- [x] [06. If Statement, just in case something went wrong](https://github.com/eduym17/trJenkins/tree/main/6IfStatement)
-- [x] [07. CICD Pipeline for a Java Maven App](https://github.com/eduym17/trJenkins/tree/main/7CICDJob)
-- [x] [08. Execute a Jenkins Job Remotely](https://github.com/eduym17/trJenkins/tree/main/8RemoteJob)
-- [x] [09. Customize your Jenkinsfile name](https://github.com/eduym17/trJenkins/tree/main/9DifferentNameJenkinsfile)
+- [x] [01. Your first Pipeline: Hello World](https://github.com/eduym17/trJenkins/tree/main/01HelloWorld)
+- [x] [02. Create a MultiStage Pipeline](https://github.com/eduym17/trJenkins/tree/main/02MultiStage)
+- [x] [03. Learn to use Parameters](https://github.com/eduym17/trJenkins/tree/main/03Parameters)
+- [x] [04. And then learn to use Variables](https://github.com/eduym17/trJenkins/tree/main/04Variables)
+- [x] [05. Fun Functions in Jenkins](https://github.com/eduym17/trJenkins/tree/main/05Functions)
+- [x] [06. If Statement, just in case something went wrong](https://github.com/eduym17/trJenkins/tree/main/06IfStatement)
+- [x] [07. CICD Pipeline for a Java Maven App](https://github.com/eduym17/trJenkins/tree/main/07CICDJob)
+- [x] [08. Execute a Jenkins Job Remotely](https://github.com/eduym17/trJenkins/tree/main/08RemoteJob)
+- [x] [09. Customize your Jenkinsfile name](https://github.com/eduym17/trJenkins/tree/main/09DifferentNameJenkinsfile)
 - [x] [10. Configure a Cronjob and forget about manual efforts](https://github.com/eduym17/trJenkins/tree/main/10CronJob)
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
