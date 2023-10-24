@@ -11,9 +11,9 @@ There are few things as useful as a virtual Folder. In Jenkins likewise many oth
 ### My First Folder
 Once Jenkins is up and running on your machine click on the "New Item" option on the left hand panel.
 
-![Jenkins New Item](image.png)
+![Jenkins New Item](assets/images/newItem.png)
 
 Inside New Item screen we'll need to define a name (don't forget to use a naming convention) and Folder as type. Once those details are ready just click "Ok" button to finish.
 
-![Jenkins Folder](image-1.png)
+![Jenkins Folder](assets/images/newFolder.png)
 
