@@ -42,7 +42,7 @@ Below it's shown a simple script. It defines a Pipeline with one Stage called `H
 #### Pipeline script from SCM:
 Jenkins offers another powerful way of pull scripts from Source Code Management (SCM) platforms, for example from GitHub. All we need to do to pull code from a public repository is fill the "Repository URL" input box, specify Branch Name and set the Jenkinsfile path from repository root folder.
 </br>
-For private repositories it will be required to configure credentials inside Jenkins system for to SCM platform authentication.
+For private repositories it will be required to configure credentials inside Jenkins system for SCM platform authentication.
 </br>
 </br>
 Configuring Repository URL:
