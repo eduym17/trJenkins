@@ -33,7 +33,7 @@ For creating a Jenkins Job it's required to go to the desired location, for exam
 Once the new Jenkins Job is created, a Configuration screen will automatically open. Inside it, is possible to set a description and make use of multiple options, but for now we'll focus on Pipeline section for the following two scenarios.
 
 #### Pipeline script: 
-This kind of pipeline allow us to write a script directly in Jenkins using Groovy Language. This is useful when we want agility during the process of writing this kind of scripts, but a huge disatvantage is that the codebox doesn't offer any help for coding.
+This kind of pipeline allow us to write a script directly in Jenkins using Groovy Language. This is useful when we want agility during the process of writing this kind of scripts, but a huge disadvantage is that the codebox doesn't offer any help for coding.
 </br>
 Below it's shown a simple script. It defines a Pipeline with one Stage called `HelloWorld` that prints `First Hello World!` in the Console Output, using any available Jenkins agent for it.
 ![Pipeline Script](/assets/images/pipelineScript.png)
